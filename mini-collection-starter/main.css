@@ -1,5 +1,9 @@
 body {
     font-family: Arial;
+    background-color: black;
+color: white;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 65px;
   }
   
   .container {
@@ -10,11 +14,14 @@ body {
     font-weight: normal;
     font-size: 1.5rem;
     margin: 0;
+
   }
   
   .art-description {
     display: none;
    font-size: 15px;
+   color: white;
+   font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
   .art-description.active {
@@ -41,8 +48,9 @@ body {
     grid-gap: 20px;
     padding: 1rem;
     box-sizing: border-box;
-    border: 1px solid black;
+    border: 1px solid wheat;
     border-radius: 25px;
+    color: violet;
   }
   
   .image-container {
