@@ -97,7 +97,7 @@ filterBlue.addEventListener("click", function(){
   if (artContainer.classList.contains("blue")){
     artContainer.style.background="blue";
   }else{
-    artContainer.style.background="white";
+    artContainer.style.background="black";
   }
 
 })
@@ -109,7 +109,7 @@ filterPink.addEventListener("click", function(){
   if (artContainer.classList.contains("pink")){
     artContainer.style.background="pink";
   }else{
-    artContainer.style.background="white";
+    artContainer.style.background="black";
   }
 
 })
@@ -121,7 +121,7 @@ filterYellow.addEventListener("click", function(){
   if (artContainer.classList.contains("yellow")){
     artContainer.style.background="yellow";
   }else{
-    artContainer.style.background="white";
+    artContainer.style.background="black";
   }
 
 })
